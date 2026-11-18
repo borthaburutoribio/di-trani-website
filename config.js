@@ -38,6 +38,6 @@ window.VINOTECA = {
     ['GBA', null, 'consultá zonas por WhatsApp'],
   ],
   envioGratisDesde: 0,
-  pagos: ['Lorem ipsum (a confirmar)'],         // A CONFIRMAR: medios de pago (placeholder visible a propósito) taste-skill-ignore
+  pagos: ['A coordinar por WhatsApp'],       // A CONFIRMAR: medios de pago (placeholder visible a propósito) taste-skill-ignore
   pagosPendiente: true,
 };
