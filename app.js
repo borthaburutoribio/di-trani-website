@@ -254,7 +254,7 @@
     let m = `Hola ${V.nombre}, quiero hacer este pedido:\n\n${lines.join('\n')}`;
     if (t.off) m += `\n\nCaja completa: ${DESC}% menos (−${money(t.off)})`;
     if (gift) m += `\n\nEs para regalo: ${gift.env}${gift.extras && gift.extras.length ? `\nSumar: ${gift.extras.join(', ').toLowerCase()}` : ''}${gift.para ? `\nPara: ${gift.para}` : ''}${gift.msg ? `\nTarjeta: "${gift.msg}"` : ''}${gift.de ? `\nDe: ${gift.de}` : ''}`;
-    m += `\n\nEnvío a ${e[0]}: ${ec === null ? 'a coordinar' : ec ? money(ec) : 'sin cargo'}`;
+    m += `\n\nEntrega: ${e[0]}${ec === null ? ' (costo a coordinar)' : ec ? ` (${money(ec)})` : ''}`;
     m += `\nPago: ${f.pago.value}`;
     m += `\nTotal estimado: ${money(t.sub - t.off + t.env + (ec || 0))}`;
     if (f.nombre.value) m += `\n\nSoy ${f.nombre.value}.`;
