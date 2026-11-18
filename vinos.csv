@@ -1,0 +1,29 @@
+id,nombre,bodega,varietal,tipo,region,precio,maridaje,destacado,stock,nota
+1,Privado Malbec,Jorge Rubio,Malbec,Tinto,Mendoza,9500,asado|pizza|picada,,si,El de la etiqueta naranja que siempre está arriba del barril.
+2,Privado Pinot Noir,Jorge Rubio,Pinot Noir,Tinto,Mendoza,11500,pastas|pollo|quesos,,si,Liviano para la mesa del martes.
+3,Trivento Golden Reserve Malbec,Trivento,Malbec,Tinto,Luján de Cuyo,17000,asado|quesos,,si,Viene en la caja de pino doble con el White Malbec.
+4,Araucana Malbec,Araucana,Malbec,Tinto,Patagonia,14000,asado|pizza,,si,Malbec del sur: más fresco que el de Mendoza.
+5,Casa Boher Malbec,Rosell Boher,Malbec,Tinto,Mendoza,21000,asado|picada,,si,El de la foto con la cordillera.
+6,Casa Boher Cabernet Franc,Rosell Boher,Cabernet Franc,Tinto,Mendoza,23000,asado|pastas,,si,Para el que ya se cansó del Malbec.
+7,Felino Malbec,Viña Cobos,Malbec,Tinto,Mendoza,26000,asado|quesos,,si,Va en la caja con el Felino Chardonnay y un chocolate.
+8,Cocodrilo,Viña Cobos,Blend,Tinto,Mendoza,42000,asado|quesos|pastas,si,si,El que recomendó Patricia a un cliente que buscaba regalo. Quedó en las reseñas.
+9,Clos de los Siete,Michel Rolland,Blend,Tinto,Valle de Uco,38000,asado|pastas|quesos,,si,Para brindar con alguien que sabe de vinos.
+10,Angélica Zapata Malbec Alta,Catena Zapata,Malbec,Tinto,Mendoza,68000,asado|quesos,,si,El de la barrica en nuestras fotos. Para una fecha especial.
+11,Aluvional Los Chacayes,Zuccardi,Malbec,Tinto,Valle de Uco,95000,asado|quesos,,si,Lo regalamos con los aceites Zuccardi en caja de pino.
+12,Trivento White Malbec,Trivento,Malbec,Blanco,Mendoza,12500,pescado|sushi|picada,,si,Blanco hecho con uva tinta. Siempre sorprende.
+13,Felino Chardonnay,Viña Cobos,Chardonnay,Blanco,Mendoza,26000,pollo|pescado|pastas,,si,El compañero del Felino Malbec en la caja doble.
+14,Rutini Sauvignon Blanc,Rutini,Sauvignon Blanc,Blanco,Valle de Uco,30000,pescado|sushi|quesos,si,si,El sabor de la primavera: frío y con algo de mar.
+15,Araucana Rosé de Malbec,Araucana,Rosado,Rosado,Patagonia,14000,picada|sushi|pescado,,si,Rosado patagónico, seco y fresco.
+16,Rosé S'il Vous Plaît,Pulenta Estate,Rosado,Rosado,Luján de Cuyo,33000,picada|pescado|postre,,si,Pulenta Estate estuvo en nuestro banquete de Halloween.
+17,Chandon Extra Brut,Chandon,Espumante,Espumante,Mendoza,22000,picada|sushi|postre,,si,Va con Ferrero Rocher y copa en la caja de pino.
+18,Rosell Boher Grand Cuvée,Rosell Boher,Espumante,Espumante,Mendoza,52000,picada|pescado|postre,si,si,Método tradicional. El de las fiestas.
+19,Restinga Dry Gin,Restinga,Gin,Destilado,Argentina,38000,,,si,Gin argentino para el gin tonic de la tarde.
+20,Restinga Destilado Otoño,Restinga,Gin,Destilado,Argentina,38000,,,si,El rosado de la familia Restinga.
+21,Restinga Flavoured Edition,Restinga,Gin,Destilado,Argentina,40000,,,si,El ámbar de la familia Restinga.
+22,Jack Daniel's Tennessee Honey,Jack Daniel's,Whisky,Destilado,Tennessee,60000,postre,,si,Viene en su caja: regalo resuelto.
+23,Baileys Original,Baileys,Licor,Destilado,Irlanda,33000,postre,,si,Para el carajillo de sobremesa.
+24,Aceite D.V. Catena Virgen Extra,D.V. Catena,Aceite de oliva,Almacén,Mendoza,15000,picada|quesos,,si,Tres versiones. Las tres entran en la caja de pino.
+25,Aceite Zuccardi Coratina,Zuccardi,Aceite de oliva,Almacén,Mendoza,19000,picada|quesos,,si,El aceite de la bodega de Aluvional.
+26,Aceite Laur Virgen Extra,Laur,Aceite de oliva,Almacén,Mendoza,12000,picada|quesos,,si,Con pan y aceitunas ya es una picada.
+27,Picada para regalo,Almacén Di Trani,Salame y mermelada,Almacén,Viamonte 576,14000,picada,,si,La que va en la caja con el Nina. Lo que entra cambia según lo que haya.
+28,Ferrero Rocher,Ferrero,Chocolate,Almacén,Italia,8000,postre,,si,El chocolate que va con el espumante.

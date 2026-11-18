@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Di Trani · Almacén de vinos en Viamonte 576, San Nicolás</title>
+<meta name="description" content="Vinos, gin, whisky y aceite de oliva en Viamonte 576 (CABA). Armá tu caja de seis o un regalo en caja de pino grabada con copa, chocolate o picada, y pedilo por WhatsApp.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#1a1412">
+<meta property="og:title" content="Di Trani · Almacén de vinos">
+<meta property="og:description" content="Vinos y almacén en Viamonte 576. Cajas de pino para regalar, catas en el local y pedido por WhatsApp.">
+<meta property="og:image" content="assets/img/cj-felino.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=2">
+<link rel="icon" type="image/png" href="assets/logo-osc.png">
+<script src="config.js?v=2"></script>
+<script>window.VINOTECA.titulo = 'Di Trani · Almacén de vinos en Viamonte 576, San Nicolás';</script>
+</head>
+<body>
+<a class="skip" href="#carta">Saltar a la carta</a>
+
+<div class="demo-bar" data-demo hidden>
+  <p>Muestra de <a href="https://tranqueraweb.com.ar" target="_blank" rel="noopener">Tranquera Digital</a>. <a href="#planilla">Cómo se cargan los precios</a></p>
+</div>
+
+<header class="top">
+  <a class="top-mark" href="#inicio"><img src="assets/logo-osc.png" alt="" width="40" height="40"><span data-f="nombre">Di Trani</span></a>
+  <nav class="top-nav" aria-label="Secciones">
+    <a href="#carta">La carta</a>
+    <a href="#cajas">Cajas de pino</a>
+    <a href="#catas">Catas</a>
+    <a href="#envios">Envíos</a>
+    <a href="#preguntas">Horarios</a>
+  </nav>
+  <button class="crate-btn" type="button" data-open-order aria-label="Ver mi pedido">
+    <span class="crate-mini" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span>
+    <span><b data-count>0</b>/<span data-cap>6</span></span>
+  </button>
+</header>
+
+<main>
+<!-- ═══ HERO: la etiqueta ═══ -->
+<section class="hero" id="inicio">
+  <div class="hero-room" aria-hidden="true">
+    <img class="on" src="assets/img/barricas.jpg" alt="" width="1200" height="1500">
+    <img src="assets/img/estante.jpg" alt="" width="1200" height="1500" loading="lazy">
+    <img src="assets/img/copa.jpg" alt="" width="1200" height="1500" loading="lazy">
+    <img src="assets/img/corchos.jpg" alt="" width="1200" height="1500" loading="lazy">
+  </div>
+  <div class="label">
+    <div class="stripe" aria-hidden="true"></div>
+    <div class="label-body">
+      <!-- Logo recortado de la foto de perfil de Instagram: A CONFIRMAR, pedir el archivo original -->
+      <img class="label-logo" src="assets/logo-osc.png" alt="Di Trani, almacén gourmet" width="600" height="600">
+      <h1>Vinos para regalar en caja de pino</h1>
+      <p class="label-lead">Vinos, gin y almacén en Viamonte 576. Armá la caja de seis desde la carta o pedí una de pino grabada, con copa, chocolate o picada. El pedido nos llega escrito por WhatsApp.</p>
+      <a class="btn" href="#carta">Ver la carta</a>
+      <p class="label-links"><a href="#cajas">Cajas de pino</a><a href="#catas">Catas en el local</a><a href="#envios">Envíos a CABA y GBA</a></p>
+      <p class="label-stars"><span data-f="direccion">Viamonte 576</span>, <span data-f="barrio">San Nicolás</span> · <a data-f-href="mapa" target="_blank" rel="noopener"><b>5,0</b> en Google, 64 reseñas</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ EL VINO DE LA SEMANA ═══ -->
+<section class="week" id="semana" aria-labelledby="week-name">
+  <div class="week-plate rv">
+    <img src="assets/img/semana.jpg" alt="Una mujer probando una copa de tinto" width="1100" height="1100" loading="lazy">
+    <svg class="capsule" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="43" fill="none" stroke-width="3"/><circle cx="50" cy="50" r="4"/></svg>
+  </div>
+  <div class="week-text">
+    <div class="tabs" role="tablist" aria-label="Elegí el tipo">
+      <button role="tab" aria-selected="true" data-week="Tinto">Tinto</button>
+      <button role="tab" aria-selected="false" data-week="Blanco">Blanco</button>
+      <button role="tab" aria-selected="false" data-week="Espumante">Espumante</button>
+    </div>
+    <div class="week-mid rv">
+      <h2 id="week-name">Cocodrilo</h2>
+      <p class="week-desc" data-week-desc>El que recomendó Patricia a un cliente que buscaba regalo.</p>
+      <p class="week-meta" data-week-meta>Viña Cobos · Mendoza</p>
+    </div>
+    <div class="cells">
+      <button class="cell cell-ink" type="button" data-week-add>Sumar a la caja</button>
+      <a class="cell cell-tone" data-week-ask href="#" target="_blank" rel="noopener">Preguntar por WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ RESEÑA (la publicaron ellos en su Instagram) ═══ -->
+<section class="quote" aria-labelledby="quote-h">
+  <h2 id="quote-h" class="sr">Lo que dicen en Google</h2>
+  <figure class="rv">
+    <blockquote><p>Fui buscando hacerle un regalo a mi pareja y debo destacar la atención de Patricia, fue muy amable y me recomendó el vino Cocodrilo, muy rico. La presentación en madera, las copas y el detalle de poder elegir un chocolate con vino, es un lindo detalle.</p></blockquote>
+    <figcaption>5 de 5 estrellas, reseña en Google · <a data-f-href="mapa" target="_blank" rel="noopener">5,0 con 64 reseñas</a></figcaption>
+  </figure>
+</section>
+
+<!-- ═══ LA CARTA ═══ -->
+<section class="carta-wrap" id="carta" aria-labelledby="carta-h">
+  <div class="sheet">
+    <svg class="scallop top" aria-hidden="true"><defs><pattern id="sc1" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="11" cy="11" r="11"/></pattern></defs><rect width="100%" height="22" fill="url(#sc1)"/></svg>
+    <div class="sheet-in">
+      <h2 id="carta-h">La carta</h2>
+      <!-- A CONFIRMAR: etiquetas sacadas de sus posteos; los PRECIOS son de ejemplo hasta que carguen su planilla -->
+      <p class="sheet-note">Etiquetas de nuestro estante. Precios por botella, de ejemplo en esta muestra. Tocá uno para sumarlo a la caja.</p>
+      <div class="filters">
+        <div class="chips" role="group" aria-label="Tipo">
+          <button type="button" class="chip on" data-tipo="">Todos</button>
+          <button type="button" class="chip" data-tipo="Tinto">Tintos</button>
+          <button type="button" class="chip" data-tipo="Blanco">Blancos</button>
+          <button type="button" class="chip" data-tipo="Rosado">Rosados</button>
+          <button type="button" class="chip" data-tipo="Espumante">Espumantes</button>
+          <button type="button" class="chip" data-tipo="Destilado">Gin y whisky</button>
+          <button type="button" class="chip" data-tipo="Almacén">Almacén</button>
+        </div>
+        <label class="range"><span>Hasta <b data-max-label>$95.000</b></span>
+          <input type="range" min="5000" max="95000" step="2500" value="95000" data-max aria-label="Precio máximo">
+        </label>
+      </div>
+      <div class="menu" data-menu aria-live="polite">
+        <p class="menu-loading">Cargando la carta…</p>
+      </div>
+      <p class="sheet-hours" data-hours></p>
+    </div>
+    <svg class="scallop bottom" aria-hidden="true"><defs><pattern id="sc2" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="11" cy="0" r="11"/></pattern></defs><rect width="100%" height="22" fill="url(#sc2)"/></svg>
+  </div>
+</section>
+
+<!-- ═══ CAJAS DE PINO: las que ya armaron (fotos de su Instagram) ═══ -->
+<section class="pino" id="cajas" aria-labelledby="pino-h">
+  <div class="pino-head">
+    <h2 id="pino-h" class="rv">Cajas que ya armamos</h2>
+    <p class="rv">El cajón lleva nuestro logo grabado. Adentro va lo que elijas: una o dos botellas, copa, chocolate, aceite de oliva o una picada. Tocá la que te guste y te la armamos igual, o cambiale lo que quieras.</p>
+  </div>
+  <ul class="pino-row">
+    <li><figure><img src="assets/img/cj-felino.jpg" alt="Caja de pino abierta con Felino Malbec, Felino Chardonnay, una copa y un chocolate" width="800" height="1000" loading="lazy"><figcaption><b>Felino doble</b><span>Malbec y Chardonnay de Viña Cobos, copa y chocolate</span></figcaption></figure><a class="pino-cta" data-wa-text="Hola Di Trani, quiero una caja de pino como la de Felino (Malbec y Chardonnay con copa y chocolate). ¿Cuánto sale?">Quiero una así</a></li>
+    <li><figure><img src="assets/img/cj-nina.jpg" alt="Caja de pino con un tinto Nina, salames envasados y un frasco de mermelada" width="800" height="1000" loading="lazy"><figcaption><b>Vino y picada</b><span>Un tinto, salame y mermelada en el mismo cajón</span></figcaption></figure><a class="pino-cta" data-wa-text="Hola Di Trani, quiero una caja de pino con vino y picada (salame y mermelada). ¿Cuánto sale?">Quiero una así</a></li>
+    <li><figure><img src="assets/img/cj-chandon.jpg" alt="Caja de pino con un Chandon, bombones Ferrero Rocher y una copa de espumante al lado" width="800" height="1000" loading="lazy"><figcaption><b>Para brindar</b><span>Chandon, Ferrero Rocher y copa</span></figcaption></figure><a class="pino-cta" data-wa-text="Hola Di Trani, quiero una caja de pino con Chandon, Ferrero Rocher y copa. ¿Cuánto sale?">Quiero una así</a></li>
+    <li><figure><img src="assets/img/cj-catena.jpg" alt="Caja de pino con un vino Catena Zapata y un aceite de oliva D.V. Catena" width="800" height="1000" loading="lazy"><figcaption><b>Catena y aceite</b><span>Un tinto de Catena Zapata con aceite D.V. Catena</span></figcaption></figure><a class="pino-cta" data-wa-text="Hola Di Trani, quiero una caja de pino con vino Catena Zapata y aceite D.V. Catena. ¿Cuánto sale?">Quiero una así</a></li>
+    <li><figure><img src="assets/img/cj-zuccardi.jpg" alt="Dos botellas de Aluvional de Zuccardi y dos aceites Zuccardi delante de una caja de pino grabada" width="800" height="1000" loading="lazy"><figcaption><b>Todo Zuccardi</b><span>Aluvional y los aceites Genovesa y Coratina</span></figcaption></figure><a class="pino-cta" data-wa-text="Hola Di Trani, quiero una caja de pino con Aluvional de Zuccardi y aceites Zuccardi. ¿Cuánto sale?">Quiero una así</a></li>
+    <li><figure><img src="assets/img/cj-estirpe.jpg" alt="Caja de pino abierta con dos botellas de Gran Estirpe, un Malbec y un Blend" width="800" height="1000" loading="lazy"><figcaption><b>Dos botellas</b><span>Gran Estirpe Malbec y Blend</span></figcaption></figure><a class="pino-cta" data-wa-text="Hola Di Trani, quiero una caja de pino con dos botellas como la de Gran Estirpe. ¿Cuánto sale?">Quiero una así</a></li>
+  </ul>
+  <!-- A CONFIRMAR: precio de cada caja armada -->
+  <p class="pino-foot rv">Para empresas armamos las cajas en cantidad, con tarjeta. <a href="#empresas">Pedí opciones</a></p>
+</section>
+
+<!-- ═══ HERRAMIENTAS: hojas apiladas ═══ -->
+<section class="tools" aria-labelledby="tools-h">
+  <h2 id="tools-h" class="tools-h rv">Armalo a tu manera</h2>
+
+  <article class="tool t-caja" id="caja" aria-labelledby="caja-h">
+    <div class="tool-txt">
+      <h3 id="caja-h">Tu caja de seis</h3>
+      <div class="crate-zone">
+        <svg class="crate" viewBox="0 0 330 230" role="img" aria-label="Caja de vino de seis botellas" data-crate></svg>
+        <div class="crate-info">
+          <p class="crate-count"><b data-count>0</b> de <span data-cap>6</span> botellas</p>
+          <p class="crate-total" data-total>$0</p>
+          <!-- A CONFIRMAR: % de descuento por caja completa -->
+          <p class="crate-off" data-off>Completá la caja y te descontamos un <span data-desc>10</span>%.</p>
+          <div class="crate-actions">
+            <button class="btn" type="button" data-fill>Completar con recomendados</button>
+            <button class="btn btn-line" type="button" data-open-order>Ver pedido</button>
+          </div>
+        </div>
+      </div>
+      <p class="tool-p">Mezclá tintos, blancos, espumantes y hasta un aceite. Cada cosa que sumás de la carta cae en un hueco del cajón.</p>
+    </div>
+    <div class="tool-img"><img src="assets/img/caja.jpg" alt="Espumantes con copas de rosado y macarons sobre una mesa de madera" width="1400" height="1050" loading="lazy"></div>
+  </article>
+
+  <article class="tool t-regalo" id="regalo" aria-labelledby="regalo-h">
+    <div class="tool-txt">
+      <h3 id="regalo-h">Tu caja de regalo</h3>
+      <div class="gift">
+        <form class="gift-form" data-gift>
+          <label><span>Caja</span><select name="env" data-env></select></label>
+          <fieldset class="xtras"><legend>Sumale</legend><div data-extras></div></fieldset>
+          <label><span>Para</span><input name="para" maxlength="40" autocomplete="off" placeholder="Martina"></label>
+          <label><span>Lo que dice la tarjeta</span><textarea name="msg" maxlength="160" rows="3" placeholder="Feliz cumple. Este es para abrir en el balcón."></textarea></label>
+          <label><span>De parte de</span><input name="de" maxlength="40" autocomplete="off" placeholder="Juan y Sofi"></label>
+          <button class="btn btn-paper" type="submit">Sumar el regalo al pedido</button>
+          <p class="gift-ok" data-gift-ok role="status"></p>
+        </form>
+        <div class="card" aria-hidden="true">
+          <p class="card-to" data-card-to>Para Martina</p>
+          <p class="card-msg" data-card-msg>Feliz cumple. Este es para abrir en el balcón.</p>
+          <p class="card-from" data-card-from>Juan y Sofi</p>
+          <img class="card-logo" src="assets/logo-osc.png" alt="" width="60" height="60">
+        </div>
+      </div>
+      <!-- A CONFIRMAR: precio de cada caja y de cada agregado -->
+      <p class="tool-p">Elegís los vinos en la carta y acá cómo va envuelto. El precio de la caja y los agregados te lo pasamos con el total.</p>
+    </div>
+    <div class="tool-img"><img src="assets/img/regalo.jpg" alt="Caja de pino grabada con Felino Malbec y Chardonnay, una copa y un chocolate" width="1400" height="1050" loading="lazy"></div>
+  </article>
+
+  <article class="tool t-maridaje" id="maridaje" aria-labelledby="mar-h">
+    <div class="tool-txt">
+      <h3 id="mar-h">Qué comés hoy</h3>
+      <div class="dishes" role="group" aria-label="Elegí la comida">
+        <button type="button" data-dish="asado">Asado</button>
+        <button type="button" data-dish="pastas">Pastas</button>
+        <button type="button" data-dish="pizza">Pizza</button>
+        <button type="button" data-dish="picada">Picada</button>
+        <button type="button" data-dish="quesos">Quesos</button>
+        <button type="button" data-dish="pescado">Pescado</button>
+        <button type="button" data-dish="sushi">Sushi</button>
+        <button type="button" data-dish="pollo">Pollo</button>
+        <button type="button" data-dish="postre">Postre</button>
+      </div>
+      <div class="picks" data-picks aria-live="polite"><p class="picks-empty">Tocá una comida y te decimos tres cosas de la carta que van bien.</p></div>
+      <p class="tool-p">Sale de lo que hay en el estante hoy: si algo se agota, deja de aparecer.</p>
+    </div>
+    <div class="tool-img"><img src="assets/img/maridaje.jpg" alt="Privado Pinot Noir con una copa servida y comida sobre una mesa de madera" width="1400" height="1050" loading="lazy"></div>
+  </article>
+
+  <article class="tool t-envios" id="envios" aria-labelledby="env-h">
+    <div class="tool-txt">
+      <h3 id="env-h">Envíos y retiro</h3>
+      <label class="env-pick"><span>¿Dónde lo recibís?</span><select data-env-barrio></select></label>
+      <p class="env-res" data-env-res role="status"></p>
+      <!-- A CONFIRMAR: costo y demora por zona (en IG dicen "Envíos por CABA y GBA, consultar zonas") -->
+      <table class="env-table" data-env-table><caption class="sr">Zonas de envío</caption><thead><tr><th scope="col">Zona</th><th scope="col">Envío</th><th scope="col">Cuándo</th></tr></thead><tbody></tbody></table>
+    </div>
+    <div class="tool-img"><img src="assets/img/calle.jpg" alt="La vidriera de Di Trani en Viamonte, con la carta de vinos escrita en el vidrio" width="1000" height="1250" loading="lazy"></div>
+  </article>
+</section>
+
+<!-- ═══ CATAS ═══ -->
+<section class="catas" id="catas" aria-labelledby="catas-h">
+  <div class="catas-img rv"><img src="assets/img/cata.jpg" alt="Mesa larga en el local nuevo, con gente probando vinos y una tabla de fiambres" width="1000" height="1400" loading="lazy"></div>
+  <div class="catas-txt">
+    <h2 id="catas-h" class="rv">Catas en Viamonte 576</h2>
+    <p class="rv">La primera en el local nuevo fue un banquete de Halloween: una mesa larga entre los estantes, con Romina Summer en la cocina y vinos de Pulenta Estate.</p>
+    <p class="rv">Antes, en Viamonte 562, hicimos la degustación de Bodega La Vigilia: cuatro cepas (Malbec, Syrah, Blend y Rosé) con una tabla de fiambres y quesos.</p>
+    <p class="rv">Los cupos son pocos. Si querés enterarte de la próxima antes que en Instagram, dejanos tu WhatsApp.</p>
+    <a class="btn rv" data-wa-text="Hola Di Trani, quiero que me avisen de la próxima cata.">Avisame de la próxima cata</a>
+  </div>
+</section>
+
+<!-- ═══ CÓMO LLEGA ═══ -->
+<section class="moments" id="como" aria-labelledby="mom-h">
+  <div class="mom-head">
+    <h2 id="mom-h" class="rv">Del estante a tu mesa</h2>
+    <div class="mom-btns"><button type="button" data-mom="-1" aria-label="Anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button><button type="button" data-mom="1" aria-label="Siguiente"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button></div>
+  </div>
+  <div class="mom-bar" aria-hidden="true"><i data-mom-bar></i></div>
+  <ol class="mom-row" data-mom-row>
+    <li style="--gap:110px"><h3>Elegís de la carta</h3><p>Vinos, gin, whisky o aceite. Filtrás por tipo o por precio.</p><img src="assets/img/barricas.jpg" alt="Pared de botellas del local" width="1200" height="1500" loading="lazy"></li>
+    <li style="--gap:40px"><h3>Llenás la caja</h3><p>Seis botellas mezcladas o una caja de pino para regalar.</p><img src="assets/img/estante.jpg" alt="Cajas de pino grabadas sobre una barrica, con vinos adentro" width="1200" height="1500" loading="lazy"></li>
+    <li style="--gap:140px"><h3>Nos llega por WhatsApp</h3><p>El mensaje sale escrito: qué querés, para quién y dónde.</p><img src="assets/img/copa.jpg" alt="Dos copas de tinto brindando junto a la botella" width="1200" height="1500" loading="lazy"></li>
+    <li style="--gap:70px"><h3>Te confirmamos</h3><p>Revisamos el estante y te pasamos el total final.</p><img src="assets/img/corchos.jpg" alt="Tres botellas de Privado Malbec sobre una barrica con corchos" width="1200" height="1500" loading="lazy"></li>
+    <li style="--gap:120px"><h3>Lo armamos</h3><p>En la caja de pino con viruta y la tarjeta adentro.</p><img src="assets/img/envio.jpg" alt="Caja de pino con un Chandon y bombones, al lado de una copa" width="1000" height="1250" loading="lazy"></li>
+    <li style="--gap:50px"><h3>Pasás o te lo llevamos</h3><p>Retirás en Viamonte 576 o lo mandamos a CABA y GBA.</p><img src="assets/img/calle.jpg" alt="La vidriera de Di Trani en Viamonte" width="1000" height="1250" loading="lazy"></li>
+  </ol>
+</section>
+
+<!-- ═══ DE DÓNDE VIENEN ═══ -->
+<section class="regions" id="regiones" aria-labelledby="reg-h">
+  <h2 id="reg-h" class="rv">Qué hay en el estante</h2>
+  <ul class="tiles" data-tiles>
+    <li class="tile p1" data-region="Valle de Uco"><img src="assets/img/uco.jpg" alt="Brindis con Clos de los Siete en un viñedo" width="900" height="900" loading="lazy"><div class="strip"><p class="vals"><span>Mendoza</span><span>Clos de los Siete</span><span>Aluvional</span><span data-n>0 en carta</span></p><p class="row2"><span>Valle de Uco</span><span>al pie de los Andes</span></p></div></li>
+    <li class="tile p2" data-region="Luján de Cuyo"><img src="assets/img/lujan.jpg" alt="Botella de Pulenta Rosé con montañas de fondo" width="900" height="900" loading="lazy"><div class="strip"><p class="vals"><span>Mendoza</span><span>Pulenta</span><span>Trivento</span><span data-n>0 en carta</span></p><p class="row2"><span>Luján de Cuyo</span><span>primera zona</span></p></div></li>
+    <li class="tile p3" data-region="Mendoza"><img src="assets/img/maipu.jpg" alt="Casa Boher Malbec con la cordillera nevada de fondo" width="900" height="900" loading="lazy"><div class="strip"><p class="vals"><span>Mendoza</span><span>Viña Cobos</span><span>Casa Boher</span><span data-n>0 en carta</span></p><p class="row2"><span>Mendoza</span><span>del Privado al Angélica</span></p></div></li>
+    <li class="tile p4" data-region="Patagonia"><img src="assets/img/andes.jpg" alt="Línea Araucana: tintos y rosado de Patagonia" width="900" height="900" loading="lazy"><div class="strip"><p class="vals"><span>Río Negro</span><span>Araucana</span><span>Malbec y rosé</span><span data-n>0 en carta</span></p><p class="row2"><span>Patagonia</span><span>vinos del sur</span></p></div></li>
+    <li class="tile p2" data-tipo-n="Espumante"><img src="assets/img/espumante.jpg" alt="Rosell Boher Grand Cuvée en una frapera con hielo" width="900" height="900" loading="lazy"><div class="strip"><p class="vals"><span>Rosell Boher</span><span>Chandon</span><span>Brindis</span><span data-n>0 en carta</span></p><p class="row2"><span>Espumantes</span><span>los de las fiestas</span></p></div></li>
+    <li class="tile p1" data-tipo-n="Destilado"><img src="assets/img/cafayate.jpg" alt="Tres botellas de gin Restinga" width="900" height="900" loading="lazy"><div class="strip"><p class="vals"><span>Restinga</span><span>Jack Daniel's</span><span>Baileys</span><span data-n>0 en carta</span></p><p class="row2"><span>Gin y whisky</span><span>para después del vino</span></p></div></li>
+    <li class="tile p4" data-tipo-n="Almacén"><img src="assets/img/colome.jpg" alt="Tres aceites de oliva D.V. Catena delante de una caja de pino" width="900" height="900" loading="lazy"><div class="strip"><p class="vals"><span>D.V. Catena</span><span>Zuccardi</span><span>Laur</span><span data-n>0 en carta</span></p><p class="row2"><span>Almacén</span><span>aceite, picada, chocolate</span></p></div></li>
+    <li class="tile p3"><img src="assets/img/barrica-sq.jpg" alt="Angélica Zapata Malbec delante de una barrica de Catena Zapata" width="900" height="900" loading="lazy"><div class="strip"><p class="vals"><span>Catena Zapata</span><span>Angélica</span><span>Guarda</span><span>Preguntanos</span></p><p class="row2"><span>Para una fecha</span><span>los que van a la caja</span></p></div></li>
+  </ul>
+</section>
+
+<!-- ═══ PREGUNTAS ═══ -->
+<section class="faq" id="preguntas" aria-labelledby="faq-h">
+  <div class="faq-col">
+    <h2 id="faq-h" class="rv">Pasá o pedí</h2>
+    <ul class="facts">
+      <li><a data-f-href="mapa" target="_blank" rel="noopener"><span data-f="direccion">Viamonte 576</span>, <span data-f="barrio">San Nicolás</span></a></li>
+      <!-- A CONFIRMAR: hora de apertura de los sábados -->
+      <li data-hours-lines></li>
+      <li><a data-wa-plain target="_blank" rel="noopener">WhatsApp <span data-f-wa></span></a></li>
+    </ul>
+    <div class="acc">
+      <details><summary>¿Se mudaron?</summary><p>Sí. Estábamos en Viamonte 562 y ahora estamos en Viamonte 576, a pocos metros. Mismo estante, local renovado.</p></details>
+      <details><summary>¿Hacen envíos?</summary><p data-faq-env>Sí, por CABA y GBA. Decinos la zona y te pasamos costo y día. También podés retirar en el local.</p></details>
+      <details><summary>¿Cómo se paga?</summary><p data-faq-pago>Lorem ipsum: medios de pago a confirmar.<!-- A CONFIRMAR taste-skill-ignore --></p></details>
+      <details><summary>¿Qué va en una caja de pino?</summary><p>Una o dos botellas, y si querés copa, chocolate, aceite de oliva o una picada. El cajón lleva nuestro logo grabado.</p></details>
+      <details><summary>¿Arman regalos empresariales?</summary><p>Sí, cajas iguales o distintas, con tarjeta y en la cantidad que necesites. Pedí opciones acá abajo.</p></details>
+      <details><summary>¿Tienen gin y whisky?</summary><p>Sí: gines como Restinga, whisky como Jack Daniel's Honey y licores como Baileys, entre otros.</p></details>
+      <details><summary>¿Hacen catas?</summary><p>Sí, con cupos chicos. La última fue el banquete de Halloween con Pulenta Estate. Escribinos y te avisamos de la próxima.</p></details>
+    </div>
+    <div class="faq-cta"><a class="btn" data-wa-plain target="_blank" rel="noopener">Escribinos por WhatsApp</a><a class="txt-link" data-f-href="mapa" target="_blank" rel="noopener">Cómo llegar</a></div>
+  </div>
+  <div class="faq-pics">
+    <img class="tall rv" src="assets/img/faq.jpg" alt="Tintos acostados en el estante del local" width="1050" height="1400" loading="lazy">
+    <img class="sq" src="assets/img/faq-sq.jpg" alt="Caja de pino con vino, salame y mermelada, lista para regalar" width="700" height="700" loading="lazy">
+  </div>
+</section>
+
+<!-- ═══ EMPRESAS: cupón ═══ -->
+<section class="corp" id="empresas" aria-labelledby="corp-h">
+  <form class="coupon" data-corp>
+    <div class="coupon-l">
+      <h2 id="corp-h">Regalos empresariales</h2>
+      <p>Fin de año, clientes o el equipo: decinos cuántas cajas y el presupuesto, y te mandamos dos o tres opciones armadas en caja de pino.</p>
+    </div>
+    <div class="coupon-r">
+      <label><span class="sr">Tu nombre</span><input name="nombre" placeholder="Tu nombre" required autocomplete="name"></label>
+      <label><span class="sr">Empresa</span><input name="empresa" placeholder="Empresa" autocomplete="organization"></label>
+      <label><span class="sr">Cantidad de cajas</span><input name="cant" placeholder="Cantidad de cajas" inputmode="numeric"></label>
+      <label><span class="sr">Presupuesto por caja</span><input name="pres" placeholder="Presupuesto por caja" inputmode="numeric"></label>
+      <button type="submit">Pedir opciones por WhatsApp</button>
+    </div>
+  </form>
+</section>
+
+<!-- ═══ LA PLANILLA (solo en la muestra) ═══ -->
+<section class="sheetdemo" id="planilla" data-demo hidden aria-labelledby="pl-h">
+  <div class="pl-text">
+    <h2 id="pl-h" class="rv">Precios desde una planilla</h2>
+    <p>El local carga sus vinos en una Google Sheet: nombre, bodega, precio, para qué comida va y si hay stock. Cambia un precio, guarda, y la carta de la web se actualiza sola.</p>
+  </div>
+  <div class="pl-ui" data-ui>
+    <div class="pl-bar"><span>vinos · Hoja de cálculo</span></div>
+    <table class="pl-table"><thead><tr><th>nombre</th><th>bodega</th><th>tipo</th><th>precio</th><th>maridaje</th><th>stock</th></tr></thead><tbody data-pl></tbody></table>
+  </div>
+</section>
+</main>
+
+<!-- ═══ PIE ═══ -->
+<footer class="foot">
+  <img class="foot-logo" src="assets/logo-clr.png" alt="" width="600" height="600">
+  <div class="foot-row">
+    <ul class="places">
+      <li><a data-f-href="mapa" target="_blank" rel="noopener"><span data-f="direccion">Viamonte 576</span>, CABA</a></li>
+      <li><a data-wa-plain target="_blank" rel="noopener">WhatsApp</a></li>
+      <li><a data-ig target="_blank" rel="noopener">Instagram</a></li>
+    </ul>
+    <div class="foot-links">
+      <ul><li><a href="#carta">La carta</a></li><li><a href="#cajas">Cajas de pino</a></li><li><a href="#regalo">Regalos</a></li></ul>
+      <ul><li><a href="#catas">Catas</a></li><li><a href="#envios">Envíos</a></li><li><a href="#empresas">Empresas</a></li></ul>
+      <ul><li><a href="#preguntas">Horarios</a></li><li><a data-mail>Mail</a></li><li><button type="button" class="share" data-share>Compartir</button></li></ul>
+    </div>
+  </div>
+  <div class="foot-legal">
+    <p>Beber con moderación. Prohibida la venta de alcohol a menores de 18 años. © 2026 Di Trani, Almacén de Vinos. Web por <a href="https://tranqueraweb.com.ar" target="_blank" rel="noopener">Tranquera Digital</a>.</p>
+    <p class="credits">Fotos: Instagram de <a data-ig target="_blank" rel="noopener">Di Trani</a>.</p>
+    <a class="txt-link" href="#inicio">Volver arriba</a>
+  </div>
+</footer>
+
+<!-- barra fija en celular -->
+<div class="dock" data-dock>
+  <span class="crate-mini" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span>
+  <span class="dock-t"><b data-count>0</b>/<span data-cap>6</span> · <span data-total>$0</span></span>
+  <button type="button" class="dock-btn" data-open-order>Ver pedido</button>
+</div>
+
+<!-- pedido -->
+<dialog class="order" data-order aria-labelledby="order-h">
+  <form method="dialog" class="order-in" data-order-form>
+    <div class="order-head"><h2 id="order-h">Tu pedido</h2><button class="x" value="cancel" aria-label="Cerrar">×</button></div>
+    <ul class="order-items" data-order-items></ul>
+    <p class="order-gift" data-order-gift hidden></p>
+    <div class="order-grid">
+      <label><span>Entrega</span><select name="barrio" data-order-barrio></select></label>
+      <label><span>Forma de pago</span><select name="pago" data-order-pago></select></label>
+      <label><span>Tu nombre</span><input name="nombre" autocomplete="name"></label>
+      <label><span>Cuándo te queda bien</span><input name="cuando" placeholder="Hoy a la tarde"></label>
+    </div>
+    <dl class="order-sum" data-order-sum></dl>
+    <button class="btn btn-wide" type="button" data-send>Enviar pedido por WhatsApp</button>
+    <p class="order-note">Te contestamos por WhatsApp con el stock y el total final.</p>
+  </form>
+</dialog>
+
+<script type="application/ld+json" id="ld-faq">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"¿Se mudaron?","acceptedAnswer":{"@type":"Answer","text":"Sí. De Viamonte 562 a Viamonte 576, a pocos metros."}},
+{"@type":"Question","name":"¿Hacen envíos?","acceptedAnswer":{"@type":"Answer","text":"Sí, por CABA y GBA. También se puede retirar en Viamonte 576."}},
+{"@type":"Question","name":"¿Qué va en una caja de pino?","acceptedAnswer":{"@type":"Answer","text":"Una o dos botellas, y si querés copa, chocolate, aceite de oliva o una picada."}},
+{"@type":"Question","name":"¿Arman regalos empresariales?","acceptedAnswer":{"@type":"Answer","text":"Sí, cajas con tarjeta en la cantidad que necesites."}},
+{"@type":"Question","name":"¿Tienen gin y whisky?","acceptedAnswer":{"@type":"Answer","text":"Sí: gines como Restinga, Jack Daniel's Honey y licores como Baileys, entre otros."}},
+{"@type":"Question","name":"¿Hacen catas?","acceptedAnswer":{"@type":"Answer","text":"Sí, con cupos chicos. Se avisa por WhatsApp e Instagram."}}]}</script>
+<script src="app.js?v=2"></script>
+</body>
+</html>
